@@ -1,0 +1,2 @@
+console.log("hy  from  node  mon")
+// nodemon tab istamal hota  ha  jab hum server ko dobara relode  karta  ha  jis node  index js   ko again lekhna parta  tha  ab bs  clg  ma koi chez  edi ho to wo khud  he  reload  ho jata  ha
