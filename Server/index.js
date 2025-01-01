@@ -21,3 +21,9 @@ http
   }).listen(8000);
   
 // agr  ap na html use  karni ha to ya  lekhna  lazmi ha //respose.writeHead(200,{'content-type':'text/html'})//fr ya likho  respose.write("<h1>hello form t jhhhe  server  which is  created by  techzeenb</h1> ");
+
+// const  sayhello =(req,reps)=>{
+//   reps.write("hello from function as  a  paramet ")
+//   reps.end();
+// }
+// http.createServer(sayhello).listen(8000)
