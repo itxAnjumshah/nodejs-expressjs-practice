@@ -1,10 +1,8 @@
-const http =require("http");
-const { json } = require("stream/consumers");
+const  http =require("http")
 
-
-http.createServer((req ,resp)=>{
+http.createServer((req,resp)=>{
     resp.writeHead(200,{"content-type":"application/json"})
-   resp.write(JSON.stringify({name:"anjum",contact:"999999",email:"anjumshah402@gmail.com"}))
-resp.end();
+    resp.write(JSON.stringify({name:"anjum shah",email:"koi nai"}))
+    resp.end();
 
-}).listen(2000);
+}).listen(1000)
